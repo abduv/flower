@@ -15,7 +15,7 @@ class FlowerCard extends StatelessWidget {
       if (i > 0 && (str.length - i) % 3 == 0) buffer.write(' ');
       buffer.write(str[i]);
     }
-    return '${buffer.toString()} ₽';
+    return '${buffer.toString()} ₸';
   }
 
   @override

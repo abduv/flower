@@ -24,7 +24,7 @@ class _FlowerDetailScreenState extends State<FlowerDetailScreen> {
       if (i > 0 && (str.length - i) % 3 == 0) buffer.write(' ');
       buffer.write(str[i]);
     }
-    return '${buffer.toString()} ₽';
+    return '${buffer.toString()} ₸';
   }
 
   String _buildStars(double rating) {
